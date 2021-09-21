@@ -1,0 +1,74 @@
+
+html, body {
+	margin:0px; 
+	padding: 0px;
+	background: #28262a;
+  font-family: 'Roboto', Helvetica, Times, sans-serif;
+}
+
+
+.card {
+    width: 45%;
+    margin: 20px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+	  cursor: pointer;
+    border-radius: 5px;
+}
+
+.news {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .5s;
+}
+
+.bg{background-image: url(https://s2.glbimg.com/Ko1QK_Mh6oofizeTgH-vGkG5lOw=/0x0:1600x900/1008x0/smart/filters:strip_icc/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/q/e/jKBPGITBipI9EWTw9MIg/agua-do-rio-tiete-fica-escura-em-trecho-que-passa-por-salto.jpeg);}
+
+
+.card:hover .news, .card:focus .news {
+    transform: scale(1.2);
+}
+
+
+.desc{
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 1em;
+  width: 440px;
+  text-shadow: 1px 1px black;
+  z-index: 1;
+}
+
+.titl{
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  color: white;
+  font-size: 1.8em;
+  width: 440px;
+  text-shadow: 1px 2px black;
+  z-index: 1;
+  text-align: left;
+}
+
+
+
+ul{
+  position: absolute;
+  top: 220px;
+  left: -10px;
+  font-weight: bold;
+  color: white;
+  font-size: 0.9em;
+  width: 440px;
+  text-shadow: 1px 1px black;
+  z-index: 1;
+}

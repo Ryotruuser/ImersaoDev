@@ -1,0 +1,35 @@
+body{
+  background: black;
+}
+
+input{
+  color: black;
+  display: block;
+  margin: 10px;
+  width: 90px;
+  margin-left: 80px;
+  border-radius: 10px;
+}
+
+label{
+  color: white;
+}
+button{
+  display: block;
+  margin: 10px;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+
+.dindin{
+  color: green;
+}
+.euro{
+  color: white;
+}
+
+.dollar{
+  color: yellow;
+}
+
